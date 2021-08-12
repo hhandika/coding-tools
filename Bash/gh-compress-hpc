@@ -1,0 +1,9 @@
+#!/bin/bash
+NAME="segul-Linux-HPC-x86_64.tar.gz"
+
+echo "Filename: ${NAME}"
+
+read -p "Input file: " INPUT
+echo "Stripping ${INPUT}"
+
+tar czvf $NAME INPUT
